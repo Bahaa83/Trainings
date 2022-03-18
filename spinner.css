@@ -1,1 +1,22 @@
-ECHO is on.
+.spinner{
+    width: 125px;
+    height: 125px;
+    background-color: #777;
+    margin: 50% auto;
+    border-radius: 50%;
+    border: 5px solid #19c8fa;
+    border-left-color: transparent;
+    animation-name: spinner-loading;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes spinner-loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
