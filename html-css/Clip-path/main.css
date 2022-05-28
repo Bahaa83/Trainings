@@ -1,0 +1,45 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.circle-bg,
+.triangle-bg,
+.rectangle-bg{
+margin: 40px auto;
+width: 100px;
+height: 100px;
+background-color: #eee;
+padding: 6px;
+}
+.triangle-bg{
+    position: relative;
+}
+
+.circle,
+.triangle,
+.rectangle{
+width: 100%;
+height: 100%;
+background-color: indianred;
+}
+
+.circle{
+    clip-path: circle(40% at 0% 50%);
+}
+
+.triangle{
+    clip-path: polygon(50% 0,100% 100%,0 100%);
+    background-color: indianred;
+}
+
+
+
+.rectangle{
+    clip-path: polygon(10% 40%,90% 40%,90% 90%,10% 90%);
+}
