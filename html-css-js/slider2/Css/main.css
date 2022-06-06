@@ -6,21 +6,20 @@
     padding: 0;
 }
 
-body{
+body {
     height: 100vh;
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     position: relative;
     padding: 0 15px;
 }
 
-
-
-.container i.next{
+.container i.next {
     position: absolute;
     font-size: 45px;
     color: #673ab7;
@@ -30,7 +29,14 @@ body{
     top: 50%;
     right: -25px;
 }
-.container i.prev{
+
+.container i.next.disable,
+.container i.prev.disable {
+    cursor: no-drop;
+    opacity: 0.5;
+}
+
+.container i.prev {
     position: absolute;
     font-size: 45px;
     color: #673ab7;
@@ -41,18 +47,20 @@ body{
     left: -25px;
 }
 
-.container .cards-list.active{
+.container .cards-list.active {
     opacity: 1;
     z-index: 2;
-}
-.container .cards-list{
-    opacity: 0;
-    transition: all 0.3s ease;
-    gap: 40px;
     display: flex;
 }
 
-.container .cards-list .card{
+.container .cards-list {
+    opacity: 0;
+    transition: all 0.3s ease;
+    gap: 40px;
+    display: none;
+}
+
+.container .cards-list .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,10 +71,7 @@ body{
     border-radius: 12px;
 }
 
-.container .cards-list .card .card-header {
-  
-}
-.container .cards-list .card .card-header .card-header-bg{
+.container .cards-list .card .card-header .card-header-bg {
     position: absolute;
     width: 100%;
     height: 100px;
@@ -76,7 +81,7 @@ body{
     border-radius: 12px 12px 0 0;
 }
 
-.cards-list .card .card-header .media{
+.cards-list .card .card-header .media {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -84,17 +89,18 @@ body{
     right: 10px;
 }
 
-.cards-list .card .card-header .media i{
+.cards-list .card .card-header .media i {
     color: #e2e2e2;
     margin-top: 12px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.cards-list .card .card-header .media i:hover{
-color: white !important;
+
+.cards-list .card .card-header .media i:hover {
+    color: white !important;
 }
 
-.cards-list .card .card-header .img{
+.cards-list .card .card-header .img {
     width: 100px;
     height: 100px;
     background-color: white;
@@ -104,41 +110,34 @@ color: white !important;
     z-index: 10;
     position: relative;
 }
-.cards-list .card .card-header img{
+
+.cards-list .card .card-header img {
     width: 100%;
     height: 100%;
     border: 2px solid white;
     border-radius: 50%;
 }
 
-.cards-list .card .card-content{
+.cards-list .card .card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cards-list .card .card-content h3.name{
+.cards-list .card .card-content h3.name {
     margin: 15px 0;
-}
-
-.cards-list .card .card-content p.j-title {
-
 }
 
 .cards-list .card .card-content .rating {
     margin: 10px 0;
 }
 
-
-.cards-list .card .card-content .rating i:last-of-type {
-
+.cards-list .card .card-footer {
+    margin-top: 15px;
 }
 
-.cards-list .card .card-footer{
-    margin-top: 15px; 
-}
-
-.cards-list .card .card-footer span {
+.cards-list .card .card-footer span.about,
+.cards-list .card .card-footer span.hier {
     width: fit-content;
     background-color: #673ab7;
     padding: 10px;
@@ -157,11 +156,11 @@ color: white !important;
     transform: translateX(-50%);
 }
 
-.container .pagination span.active{
+.container .pagination span.pagi-item.active {
     opacity: 1;
 }
 
-.container .pagination span{
+.container .pagination span.pagi-item {
     width: 40px;
     height: 12px;
     background-color: #673ab7;
@@ -170,4 +169,3 @@ color: white !important;
     transition: all 0.3s ease;
     cursor: pointer;
 }
-
