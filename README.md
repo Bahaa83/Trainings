@@ -8,3 +8,6 @@ Gjorde några små uppgifter som spinner laddning och upp-ned och flera mer, lad
 عمل بعض المهام الصغيرة مثل عنصر التحميل الدائري وعنصر التحميل الافقي باستخدام html,css,js
 
 [Dotted-Loader](https://bahaa83.github.io/Trainings/html-css-js/Dotted-Loader/index.html)
+[Hamburger]( https://bahaa83.github.io/Trainings/html-css-js/Hamburger/hamburger.html)
+[Slide1] ( https://bahaa83.github.io/Trainings/html-css-js/Slide1/slide.html)
+[Slide2] ( https://bahaa83.github.io/Trainings/html-css-js/Slide1/slide.html)
