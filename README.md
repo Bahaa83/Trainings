@@ -6,10 +6,11 @@
 <p>Gjorde några små uppgifter som spinner laddning och upp-ned och flera mer, laddning med html,css and js</p>
 <h3>--Arabic-</h3>
 <p>عمل بعض المهام الصغيرة مثل عنصر التحميل الدائري وعنصر التحميل الافقي باستخدام html,css,js</p>
-
+<h1>Html Css Js </h1>
 [Dotted-Loader](https://bahaa83.github.io/Trainings/html-css-js/Dotted-Loader/index.html)<p></p>
 [Hamburger](https://bahaa83.github.io/Trainings/html-css-js/Hamburger/hamburger.html)<p></p>
 [slider1](https://bahaa83.github.io/Trainings/html-css-js/slider1/main.html)<p></p>
 [slider2](https://bahaa83.github.io/Trainings/html-css-js/slider2/main.html)<p></p>
-
+<h1>Html Css </h1>
+[Clip-Path](https://bahaa83.github.io/Trainings/html-css/Clip-Path/main.html)<p></p>
 
