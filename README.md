@@ -14,7 +14,7 @@
 <h1>Html Css </h1>
 [Clip-path](https://bahaa83.github.io/Trainings/html-css/Clip-path/main.html)<p></p>
 [Loading-Mix-Blend](https://bahaa83.github.io/Trainings/html-css/Loading-Mix-Blend/main.html)<p></p>
-[animated wavy](https://bahaa83.github.io/Trainings/html-css/animated wavy/wavy.html)<p></p>
+[animated wavy](https://bahaa83.github.io/Trainings/html-css/animatedwavy/wavy.html)<p></p>
 [loading](https://bahaa83.github.io/Trainings/html-css/loading/loading.html)<p></p>
 [spinner](https://bahaa83.github.io/Trainings/html-css/spinner/spinner.html)<p></p>
 
