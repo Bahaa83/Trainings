@@ -9,7 +9,7 @@
 
 [Dotted-Loader](https://bahaa83.github.io/Trainings/html-css-js/Dotted-Loader/index.html)<p></p>
 [Hamburger](https://bahaa83.github.io/Trainings/html-css-js/Hamburger/hamburger.html)<p></p>
-[Slide1](https://bahaa83.github.io/Trainings/html-css-js/Slide1/slide.html)<p></p>
-[Slide2](https://bahaa83.github.io/Trainings/html-css-js/Slide1/slide.html)<p></p>
+[slide1](https://bahaa83.github.io/Trainings/html-css-js/slide1/slide.html)<p></p>
+[slide2](https://bahaa83.github.io/Trainings/html-css-js/slide2/slide.html)<p></p>
 
 
