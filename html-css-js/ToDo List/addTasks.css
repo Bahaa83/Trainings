@@ -1,0 +1,49 @@
+.container,.tasks{
+background-color: #eee;
+width: 400px;
+padding: 10px 0;
+margin: 15px auto;
+border-radius: 4px;
+}
+.container .form{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.container .form .input{
+width: 60%;
+border: transparent;
+outline: transparent;
+border-radius: 4px;
+padding: 5px;
+}
+.container .form .add{
+width: 22%;
+background-color: red;
+color: white;
+border-radius: 4px;
+border: transparent;
+padding: 5px;
+cursor: pointer;
+}
+.delete-btn{
+    color: white;
+    width: 30px;
+    background-color: red;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 8px;
+    padding: 4px;
+}
+
+.task{
+    background-color: white;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
