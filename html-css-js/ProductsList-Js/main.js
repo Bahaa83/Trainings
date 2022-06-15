@@ -21,7 +21,6 @@ for (let index = 0; index < navItems.length; index++) {
     link.append(linkText);
     li.appendChild(link);
     ul.appendChild(li);
-    
 }
 nav.appendChild(ul);
 document.body.appendChild(nav);
