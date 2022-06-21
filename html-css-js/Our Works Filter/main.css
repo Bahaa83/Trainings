@@ -7,3 +7,139 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.switcher{
+    margin: 25px auto;
+    width: 400px;
+    background-color: #77777729;
+}
+.switcher ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.switcher ul li{
+    position: relative;
+    transition: 0.3s;
+    width: 100px;
+    padding: 12px 10px;
+    text-align: center;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+}
+.switcher ul li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    background: red;
+    z-index: -1;
+}
+.switcher ul li:hover {
+    color: white;
+}
+.switcher ul li:hover::before{
+    animation: fill-bg 0.3s linear forwards;
+}
+.active{
+background: red;
+color: white;
+}
+.gallery{
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+}
+.gallery div{
+    position: relative;
+    transition: 0.3s;
+    height: 100px;
+    color: white;
+    letter-spacing: 0.8px;
+    font-weight: 900;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.3s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery div::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    opacity: 0.4;
+    z-index: -1;
+}
+.gallery div:hover{
+    color: black;
+    transform: rotate(360deg);
+}
+.gallery div:hover::before {
+    animation: fill-flash 0.3s linear  forwards;
+}
+.gallery .web-item{
+    background-color: indianred;
+}
+.gallery .graph-item {
+    background-color: red;
+}
+.gallery .mark-item {
+    background-color: blue;
+}
+
+/* Animation */
+@keyframes fill-bg {
+50%{
+    left: -50%;
+}
+100%{
+    left: 0;
+}
+}
+
+@keyframes fill-flash {
+    0%{
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    }
+    30%{
+    width:25%;
+    height: 25%;
+    top: 40%;
+    left: 40%;
+    }
+    50%{
+    width: 50%;
+    height: 50%;
+    top: 30%;
+    left: 30%;
+    }
+    70%{
+    width: 90%;
+    height: 90%;
+    top: 15%;
+    left: 15%;
+    }
+    100%{
+    width: 125%;
+    height: 125%;
+    top: 0;
+    left: 0;
+    }
+}
