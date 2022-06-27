@@ -119,6 +119,19 @@ nav .container .nav-items li a {
 }
 nav .container .cart-shopping{
     padding: 0 5px;
+    position: relative;
+}
+nav .container .cart-shopping .show-pro{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffc107;
+    color: white;
+    right: -20px;
+    top: -10px;
+    border-radius: 50%;
+    text-align: center;
+    opacity: 0;
 }
 nav .container .cart-shopping i {
     color: #ffc107;
@@ -181,6 +194,7 @@ nav .container .cart-shopping i {
 .close{
     animation: move-right 0.3s linear forwards;
 }
+
 /*--End Nav Section-- */
 
 /*--Start Main Content Section --*/
@@ -235,7 +249,13 @@ img{
     padding: 5px 8px;
     border-radius: 5px;
     color: white;
+    border: none;
     cursor: pointer;
+}
+.card-footer button.add-btn.disable {
+    opacity: 0.5;
+    cursor: no-drop;
+    user-select: none;
 }
 .card-footer .add-btn i{
     color: #ffc107;
