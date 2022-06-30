@@ -198,18 +198,20 @@ nav .container .cart-shopping i {
 /*--End Nav Section-- */
 
 /*--Start Main Content Section --*/
+
 .main-content .container .content{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     margin: 30px 0;
 }
-.main-content .container .content .card{
+.card{
     background-color: white;
     border: 1px solid #9e9e9e;
     cursor: pointer;
 }
-.main-content .container .content .card .title {
+.main-content .container .content .card .title,
+.title {
     text-transform: uppercase;
     font-weight: 700;
     padding: 10px;
@@ -270,7 +272,20 @@ footer{
     color: white;
     text-align: center;
     background-color: #03a9f4;
+    margin-top: 100px;
 }
+footer .footer-content{
+    height: 100%;
+    padding: 0 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-content p span{
+    color: #ffc107;
+    font-weight: 700;
+}
+
 /*--End Footer Section-- */
 
 /*-- Start Animation --*/
