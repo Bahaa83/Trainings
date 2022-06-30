@@ -1,0 +1,21 @@
+.main{
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: #e2e2e257;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 3px 11px #e2e2e2;
+    border-radius: 4px;
+}
+.main h2{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+.main p{
+    font-size: 22px;
+    line-height: 1.2;
+    color: #636161;
+    margin: 40px 0;
+}
