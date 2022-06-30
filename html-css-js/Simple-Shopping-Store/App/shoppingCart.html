@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../Css/all.min.css">
     <!--Main Css file-->
     <link rel="stylesheet" href="../Css/main.css">
+    <link rel="stylesheet" href="../Css/shoppingCard.css">
     <!--Normalize file for render all element normaly-->
     <link rel="stylesheet" href="../Css/normalize.css">
     <!--Google font-->
@@ -20,8 +21,52 @@
 </head>
 
 <body>
-    <div class="div">Shopping cart</div>
+    <section>
+        <!-- Start Nav Section-->
+        <nav>
+            <div class="container">
+                <h2 class="logo">shopping store</h2>
+                <ul class="nav-items">
+                    <li><a href="./main.html">home</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                </ul>
+                <span class="cart-shopping"><a href="./shoppingCart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <span class="show-pro"></span>
+                </span>
+        
+                <span class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+                <div class="mega-menu close ">
+                    <ul>
+                        <li><a href="./main.html">home</a></li>
+                        <li><a href="./about.html">about</a></li>
+                        <li><a href="./contact.html">contact</a></li>
+                        <li><a href="#">other links</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav Section-->
+        <!-- Start Main content Section-->
+            <div class="shopping-content">
+                <div class="container">
+                    <div class="card-items content"></div>
+                </div>
+            </div>
+        <!-- End Main content Section-->
+            
+        <!-- Start Footer Section-->
+            <footer>
+                    <div class="footer-content">
+                        <p>&copy;2022-06-21 <span>Bahaa Abo Khaled</span> &copy;Sweden-Falkenberg</p>
+                    </div>
+            </footer>
+        <!-- End Footer Section-->
+    </section>
     <script src="../Javascript/main.js"></script>
+    <script src="../Javascript/shopingCard.js"></script>
 </body>
 
 </html>
