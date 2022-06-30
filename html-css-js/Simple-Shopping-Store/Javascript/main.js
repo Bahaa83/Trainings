@@ -7,7 +7,7 @@ let showPro = document.querySelector(".show-pro");
 let toggle = false;
 let arr = [];
 
-
+/*--Start Home page js --*/
 hamburger.onclick = () => {
     toggle = !toggle;
     if (toggle) {
@@ -82,3 +82,7 @@ function showData(products) {
         content.appendChild(card);
     }
 }
+
+/*--End Home page js --*/
+
+
