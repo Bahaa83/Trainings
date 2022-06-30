@@ -1,0 +1,43 @@
+.card-items{
+    margin-top: 20px;
+    min-height: calc(100vh - 143px);
+}
+.card-items .card .card-content {
+    display: flex;
+    align-items: center;
+}
+.card-items .card .card-content p{
+    padding: 0 20px;
+}
+.card-items .card{
+    margin-top: 20px;
+}
+.card-items .total{
+    margin: 15px 0;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.card-items .total span {
+    width: 50%;
+    display: inline-block;
+}
+.card-items .purchase{
+    display: block;
+    float: right;
+    background: #08730d;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .card-items .purchase {
+    float: none;
+    margin: 40px auto 0;
+    }
+}
+.card-items .purchase i{
+    padding-left: 7px;  
+}
