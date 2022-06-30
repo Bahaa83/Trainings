@@ -8,6 +8,7 @@
 [Products list](https://bahaa83.github.io/Trainings/html-css-js/ProductsList-Js/main.html)<p></p>
 [Fullscreen navigation](https://bahaa83.github.io/Trainings/html-css-js/Fullscreen%20navigation/main.html)<p></p>
 [Count Input](https://bahaa83.github.io/Trainings/html-css-js/Count-Input/main.html)<p></p>
+[Shopping card](https://bahaa83.github.io/Trainings/html-css-js/Simple-Shopping-Store/App/main.html)<p></p>
 
 <h1>Html Css </h1>
 
