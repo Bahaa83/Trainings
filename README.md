@@ -1,7 +1,7 @@
 # Trainings
 <h1>Html Css Js </h1>
 
-[Dotted-Loader](https://bahaa83.github.io/Trainings/html-css-js/Dotted-Loader/index.html/)<p></p>
+[Dotted-Loader](https://bahaa83.github.io/Trainings/html-css-js/Dotted-Loader/index.html)<p></p>
 [Hamburger](https://bahaa83.github.io/Trainings/html-css-js/Hamburger/hamburger.html)<p></p>
 [slider1](https://bahaa83.github.io/Trainings/html-css-js/slider1/main.html)<p></p>
 [slider2](https://bahaa83.github.io/Trainings/html-css-js/slider2/main.html)<p></p>
